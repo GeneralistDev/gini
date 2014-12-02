@@ -1,6 +1,6 @@
 # gini
 
-Calculate the gini coefficient of a data set.
+Calculate the [Gini coefficient](http://en.wikipedia.org/wiki/Gini_coefficient) of a data set.
 
 ## Installation
 
