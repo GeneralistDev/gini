@@ -7,10 +7,12 @@ Calculate the [Gini coefficient](http://en.wikipedia.org/wiki/Gini_coefficient) 
 Install the package with NPM:
 
 ```bash
-$ npm install gini
+$ npm install -g gini
 ```
 
-## Usage
+The `-g` flag is recommended for easy CLI usage, but completely optional.
+
+## API
 
 For data sets that are already ordered ascendingly, use the `ordered` function:
 
@@ -31,3 +33,11 @@ console.log(result);
 ```
 
 See [here](http://mathworld.wolfram.com/GiniCoefficient.html) for more information about the two different methods of calculation.
+
+## CLI
+
+Run `gini` from the command line, with a list of numbers provided as input arguments:
+
+```bash
+$ gini 0 14 2 9 3 8 13 23 57 49
+```
