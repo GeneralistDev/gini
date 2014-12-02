@@ -27,3 +27,5 @@ var data = [0, 14, 2, 9, 3, 8, 13, 23, 57, 49];
 var result = gini.unordered(data);
 console.log(result);
 ```
+
+See [here](http://mathworld.wolfram.com/GiniCoefficient.html) for more information about the two different methods of calculation.
