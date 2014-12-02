@@ -1,4 +1,4 @@
-# gini
+# gini [![NPM version](http://img.shields.io/npm/v/gini.svg?style=flat-square)](https://www.npmjs.org/package/gini)
 
 Calculate the [Gini coefficient](http://en.wikipedia.org/wiki/Gini_coefficient) of a data set.
 
