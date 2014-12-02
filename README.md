@@ -20,7 +20,7 @@ For data sets that are already ordered ascendingly, use the `ordered` function:
 var gini = require("gini");
 var data = [0, 2, 3, 8, 9, 13, 14, 23, 49, 57];
 var result = gini.ordered(data);
-console.log(result);
+console.log(result); // = 0.5415730337078651
 ```
 
 For data sets in any other order, use the `unordered` function:
@@ -29,7 +29,7 @@ For data sets in any other order, use the `unordered` function:
 var gini = require("gini");
 var data = [0, 14, 2, 9, 3, 8, 13, 23, 57, 49];
 var result = gini.unordered(data);
-console.log(result);
+console.log(result); // = 0.5415730337078651
 ```
 
 See [here](http://mathworld.wolfram.com/GiniCoefficient.html) for more information about the two different methods of calculation.
