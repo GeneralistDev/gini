@@ -4,7 +4,7 @@ function mean(array) {
   var sum = 0;
 
   array.forEach(function(value) {
-    sum += value;
+    sum += Number(value);
   });
 
   return sum / array.length;
@@ -13,7 +13,7 @@ function mean(array) {
 module.exports.ordered = function(array) {
   var sum = 0;
   array.forEach(function(value, i) {
-    sum += ((2 * (i + 1)) - array.length - 1) * value;
+    sum += ((2 * (i + 1)) - array.length - 1) * Number(value);
   });
 
   return sum / (Math.pow(array.length, 2) * mean(array));
@@ -25,7 +25,7 @@ module.exports.unordered = function(array) {
   array.forEach(function(value1, i) {
     array.forEach(function(value2, j) {
       if (i != j) {
-        sum += Math.abs(value1 - value2);
+        sum += Math.abs(Number(value1) - Number(value2));
       }
     });
   });

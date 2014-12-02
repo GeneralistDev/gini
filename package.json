@@ -12,6 +12,7 @@
     "url": "https://github.com/ssilab/gini/issues"
   },
   "main": "./index.js",
+  "bin": "./cli.js",
   "dependencies": {},
   "devDependencies": {},
   "engines": {

@@ -4,6 +4,8 @@ Calculate the [Gini coefficient](http://en.wikipedia.org/wiki/Gini_coefficient) 
 
 ## Installation
 
+Install the package with NPM:
+
 ```bash
 $ npm install gini
 ```
@@ -19,7 +21,7 @@ var result = gini.ordered(data);
 console.log(result);
 ```
 
-For data sets in any other order, use the `unordered` method:
+For data sets in any other order, use the `unordered` function:
 
 ```javascript
 var gini = require("gini");
