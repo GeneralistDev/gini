@@ -1,6 +1,6 @@
 {
   "name": "gini",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Calculate the Gini coefficient of a data set.",
   "author": "Swinburne Software Innovation Lab",
   "license": "MIT",
