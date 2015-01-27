@@ -13,7 +13,9 @@
   },
   "main": "./index.js",
   "bin": "./cli.js",
-  "dependencies": {},
+  "dependencies": {
+    "simple-statistics": "^0.9.0"
+  },
   "devDependencies": {},
   "engines": {
     "node": ">= 0.10.0"

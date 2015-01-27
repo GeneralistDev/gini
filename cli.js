@@ -23,4 +23,4 @@ if (args.indexOf("--version") !== -1) {
   return;
 }
 
-console.log(gini.unordered(args));
+console.log(gini.giniraj(args));
